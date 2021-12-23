@@ -4,7 +4,7 @@ Desafio realizado ao final do módulo 4 do Ignite, bootcamp da Rocketseat, na tr
 
 # 💻 Sobre o desafio
 
-Nesse desafio, foi solicitada a criação de testes unitários para uma aplicação já pronta, seguindo o template disponibilizado. 
+Nesse desafio foi solicitada a criação de testes unitários para uma aplicação já pronta, seguindo o template disponibilizado. 
 
 A aplicação consiste em uma api que simula um sistema financeiro no qual é possível cadastrar usuários, e permitir que esses usuários realizem depósitos e saques, além de consultar o extrato e informações de uma operação específica.
 
