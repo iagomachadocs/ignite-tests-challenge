@@ -1,5 +1,7 @@
 # Desafio de Testes Unitários do Ignite
 
+Desafio realizado ao final do módulo 4 do Ignite, bootcamp da Rocketseat, na trilha de Node.js.
+
 # 💻 Sobre o desafio
 
 Nesse desafio, foi solicitada a criação de testes unitários para uma aplicação já pronta, seguindo o template disponibilizado. 
