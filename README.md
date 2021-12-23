@@ -3,7 +3,9 @@
 # 💻 Sobre o desafio
 
 Nesse desafio, foi solicitada a criação de testes unitários para uma aplicação já pronta, seguindo o template disponibilizado. 
+
 A aplicação consiste em uma api que simula um sistema financeiro no qual é possível cadastrar usuários, e permitir que esses usuários realizem depósitos e saques, além de consultar o extrato e informações de uma operação específica.
+
 Foram criados testes unitários para todas as rotas da aplicação utilizando a biblioteca `Jest`.
 
 # Rotas da aplicação
