@@ -67,24 +67,24 @@ describe("Create statement", () => {
   });
 
   it("should not be able to create a withdraw statement without funds", async () => {
-    expect(async () => {
-      await createStatementUseCase.execute({
+    await expect(
+      createStatementUseCase.execute({
         user_id: user.id as string,
         type: OperationType.WITHDRAW,
         amount: 100,
         description: "Withdraw statement",
-      });
-    }).rejects.toBeInstanceOf(CreateStatementError.InsufficientFunds);
+      })
+    ).rejects.toBeInstanceOf(CreateStatementError.InsufficientFunds);
   });
 
   it("should not be able to create a statement of a non-existent user", async () => {
-    expect(async () => {
-      await createStatementUseCase.execute({
+    await expect(
+      createStatementUseCase.execute({
         user_id: "invalid id",
         type: OperationType.DEPOSIT,
         amount: 100,
         description: "Deposit statement",
-      });
-    }).rejects.toBeInstanceOf(CreateStatementError.UserNotFound);
+      })
+    ).rejects.toBeInstanceOf(CreateStatementError.UserNotFound);
   });
 });

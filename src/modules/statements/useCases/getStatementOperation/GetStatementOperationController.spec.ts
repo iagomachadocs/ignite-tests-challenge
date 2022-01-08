@@ -51,7 +51,6 @@ describe("Get Statement Operation Controller", () => {
         Authorization: `Bearer ${token}`,
       });
 
-    console.log(response.body);
     expect(response.status).toBe(200);
     expect(response.body.description).toEqual("Deposit statement");
     expect(response.body.amount).toEqual("200.00");
